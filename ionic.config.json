@@ -1,0 +1,7 @@
+{
+  "name": "listagemApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
