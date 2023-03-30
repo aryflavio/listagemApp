@@ -1,6 +1,9 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>Chamber</ion-title>
+  <ion-toolbar color ="dark">
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Dados</ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -8,12 +11,24 @@
   <ion-card>
     <img alt="Silhouette of mountains" src="https://top-mmo.fr/wp-content/uploads/2022/09/Chamber-TST.jpg" />
     <ion-card-header>
-      <ion-card-title>Chamber</ion-card-title>
-      <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+      <ion-card-title class="ion-text-center">CHAMBER</ion-card-title>
+
     </ion-card-header>
 
-    <ion-card-content>
-      Here's a small text description for the card content. Nothing more, nothing less.
-    </ion-card-content>
+    <ion-list lines="none">
+      <ion-item>
+        <ion-label><strong>Email:</strong> chamberatirador.gmail.com</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-label><strong>Telefone:</strong> 959655883</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-label><strong>Função:</strong> Sentinela</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-label class="ion-text-wrap"><strong>Habilidades:</strong> Caçador de cabeças, Rendezvous, Marca registrada, Tour de force</ion-label>
+      </ion-item>
+    </ion-list>
   </ion-card>
+
 </ion-content>

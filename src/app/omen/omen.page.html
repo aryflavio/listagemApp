@@ -1,6 +1,9 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>Omen</ion-title>
+  <ion-toolbar color ="dark">
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Dados</ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -8,12 +11,24 @@
   <ion-card>
     <img alt="Silhouette of mountains" src="https://assets.reedpopcdn.com/valorant-agent-omen-1596701992005.jpg/BROK/thumbnail/1200x1200/quality/100/valorant-agent-omen-1596701992005.jpg" />
     <ion-card-header>
-      <ion-card-title>Omen</ion-card-title>
-      <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+      <ion-card-title class="ion-text-center">OMEM</ion-card-title>
+
     </ion-card-header>
 
-    <ion-card-content>
-      Here's a small text description for the card content. Nothing more, nothing less.
-    </ion-card-content>
+    <ion-list lines="none">
+      <ion-item>
+        <ion-label><strong>Email:</strong> omemdassombras.gmail.com</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-label><strong>Telefone:</strong> 999887562</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-label><strong>Função:</strong> Controlador</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-label class="ion-text-wrap"><strong>Habilidades:</strong>Paranoia, Manto sombrio, Passos tenebrosos, Salto das sombras</ion-label>
+      </ion-item>
+    </ion-list>
   </ion-card>
+
 </ion-content>
